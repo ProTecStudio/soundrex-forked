@@ -33,7 +33,7 @@ function Albums_Playlists({
     () => {
       return fetcher(
         {
-          url: `https://soundrex.onrender.com/api/v1/browse?id=${browseId}${
+          url: `https://antara.onrender.com/api/v1/browse?id=${browseId}${
             params ? "&params=" + params : ""
           }`,
           method: "GET",
